@@ -10,11 +10,7 @@ const PostsPage = (props) => {
     <div className="posts-container-wrapper">
       {/* map through data here */}
       {props.dummyData.map((post, index) => {
-        return (
-          <div key={index}><Post post = {post} />
-        </div>
-        )
-        
+        return <div key={index}> <Post post={post}/></div>
         })
       }      
     </div>

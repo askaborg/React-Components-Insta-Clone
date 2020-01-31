@@ -1,11 +1,13 @@
 // You will add code in this file
 
-import React from "react";
-import CommentSection from "../CommentSection/CommentSectionContainer";
-import LikeSection from "./LikeSection";
-import PostHeader from "./PostHeader";
+import React from "react"
+import CommentSection from "../CommentSection/CommentSectionContainer"
+import LikeSection from "./LikeSection"
+import PostHeader from "./PostHeader"
 
-import "./Posts.css";
+
+import "./Posts.css"
+// import PostsPage from "./PostsPage"
 
 const Post = props => {
   // set up state for the likes
