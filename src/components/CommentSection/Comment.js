@@ -1,5 +1,5 @@
-import React from 'react';
-import './Comment.css';
+import React from 'react'
+import './Comment.css'
 
 const Comment = props => {
   return (
@@ -8,8 +8,7 @@ const Comment = props => {
       {' '}
       <span className="comment">{props.comment.text}</span>
     </div>
-  );
-};
+  )
+}
 
-
-export default Comment;
+export default Comment
