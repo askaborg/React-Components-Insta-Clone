@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react"
 
 const LikeSection = props => {
   return (
@@ -7,7 +7,7 @@ const LikeSection = props => {
       className="like-section"
       key="likes-icons-container"
     >
-      <div className="like-section-wrapper">
+      <div className="like-section-wrapper" onClick={() => props.setLikeIt(props.likeIt + 1)}>
         <i className="far fa-heart" />
       </div>
       <div className="like-section-wrapper">
@@ -15,10 +15,10 @@ const LikeSection = props => {
       </div>
     </div>
     <p className="like-number">
-      
+    <span>{props.likeIt} </span>
       likes</p>
-</div>
+    </div>
   )
-};
+}
 
 export default LikeSection;
